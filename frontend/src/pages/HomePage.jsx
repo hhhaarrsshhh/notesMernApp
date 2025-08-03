@@ -13,7 +13,7 @@ const HomePage = () => {
   useEffect(() => {
     const fetchNotes = async () => {
       try {
-        const response = await api.get("/notes");
+        const response = await api.get("/");
         console.log("API Response:", response.data);
 
         // Handle both cases: array or object with `notes` key

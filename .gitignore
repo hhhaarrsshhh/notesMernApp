@@ -7,12 +7,23 @@ frontend/.env
 backend/.env
 
 # Build outputs
+# Vite build output
+frontend/dist/
+# CRA build output (if ever used)
 frontend/build/
+# Backend compiled code (if you transpile)
 backend/dist/
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # OS/system files
 .DS_Store
 Thumbs.db
+
+# Editor files
+.vscode/
+.idea/

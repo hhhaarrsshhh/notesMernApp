@@ -45,7 +45,7 @@ const HomePage = () => {
       <h1 className="text-3xl font-bold mb-4">Notes</h1>
 
       <div className="p-6">
-        {loading && <p>Loading...</p>}
+        {loading && <p>Please wait data is loading......</p>}
 
         {!isRateLimited && notes.length > 0 && (
           notes.map((note) => (
